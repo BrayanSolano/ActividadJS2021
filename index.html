@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App</title>
+
+    <link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <script src="https://kit.fontawesome.com/840e9bbb29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar bg-light d-flex justify-content-between ">
+            <h2 class="">App</h2>
+
+            <div class="dropdown nav-drop-menu dropleft">
+                <li class="nav-item" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <i id="iconCartShop" class="fas fa-shopping-cart"></i>
+                </li>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <div class="card">
+                        
+                        <div class="card-body">
+                            <ul id="ulCart">
+                                <li>
+                                    <div class="d-flex justify-content-between ">
+                                        <img class="imgCartShop" src="https://via.placeholder.com/80x50" alt="" srcset="">
+                                        <label for="">Name</label>
+                                        <label for="">Unds</label>
+                                        <label for="">Cost</label>
+                                        <a href="" id="btnBorrarExample"><i class="far fa-trash-alt btnEliminar"></i></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between ">
+                                        <img class="imgCartShop" src="https://via.placeholder.com/80x50" alt="" srcset="">
+                                        <label for="">Chocorramo</label>
+                                        <label for="">8</label>
+                                        <label for="">2500</label>
+                                        <a href="#"><i class="far fa-trash-alt btnEliminar"></i></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <strong for="">Total</strong>
+                            <strong>$ 55.550</strong>
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+
+
+        </nav>
+    </header>
+    <main>
+        
+            <div class="row d-flex justify-content-center ">
+                <div  class="card">
+                    <div class="d-flex justify-content-between card-header">
+                        <h5>Chocorramo</h5>
+                        <div class="d-flex justify-content-between">
+
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Choclolate</h5>
+                        <img class="d-flex img-fluid" src="public/img/img-chocorramo.jpg" alt="" srcset="">
+
+                    </div>
+                    <div class="d-flex justify-content-between card-footer">
+                        <h6 id="precioCard">$ 5.000</h6>
+                        <button id="s1" class=" btn btn-outline-success" type="submit">Agregar al Carrito</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="d-flex justify-content-between card-header">
+                        <h5>CocaCola</h5>
+                        <div class="d-flex justify-content-between">
+
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Bebidas</h5>
+                        <img class="img-fluid" src="public/img/img-cocacola.jpg" alt="" srcset="">
+
+                    </div>
+                    <div class="d-flex justify-content-between card-footer">
+                        <h6 id="precioCard">$ 5.000</h6>
+                        <button id="s2" class=" btn btn-outline-success" type="submit">Agregar al Carrito</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="d-flex justify-content-between card-header">
+                        <h5>Gansitos</h5>
+                        <div class="d-flex justify-content-between">
+
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Rellenos</h5>
+                        <img class="img-fluid" src="public/img/img-gansito.png" alt="" srcset="">
+
+                    </div>
+                    <div class="d-flex justify-content-between card-footer">
+                        <h6 id="precioCard">$ 5.000</h6>
+                        <button id="s3" class=" btn btn-outline-success" type="submit">Agregar al Carrito</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="d-flex justify-content-between card-header">
+                        <h5>Galleta Gol</h5>
+                        <div class="d-flex justify-content-between">
+
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Recubiertos</h5>
+                        <img class="img-fluid" src="public/img/img-gol.jpg" alt="" srcset="">
+
+                    </div>
+                    <div class="d-flex justify-content-between card-footer">
+                        <h6 id="precioCard">$ 5.000</h6>
+                        <button id="s4" class=" btn btn-outline-success" type="submit">Agregar al Carrito</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="d-flex justify-content-between card-header">
+                        <h5>Snikers</h5>
+                        <div class="d-flex justify-content-between">
+
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Recubiertos</h5>
+                        <img class="img-fluid" src="public/img/img-snikers.jpg" alt="" srcset="">
+
+                    </div>
+                    <div class="d-flex justify-content-between card-footer">
+                        <h6 id="precioCard">$ 5.000</h6>
+                        <button id="s5" class=" btn btn-outline-success" type="submit">Agregar al Carrito</button>
+                    </div>
+                </div>
+
+
+            </div>
+            
+    </main>
+    <script src="script.js"></script>
+    <script href="https://cdn.usebootstrap.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

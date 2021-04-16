@@ -1,0 +1,95 @@
+#iconCartShop{
+    margin-right: 25px;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.card{
+    
+    margin: 10px;
+    border: 0px;
+    
+    
+}
+.fa-star{
+    font-size: 25px ;
+    margin-left: 10px;
+}
+#precioCard{
+    font-size: 25px;
+}
+
+
+.nav-drop-menu>.dropdown-menu {
+    top:60px;
+    opacity:0;
+    border:none;
+    display:block;
+    transition:.3s;
+    overflow:hidden;
+    visibility:hidden;
+}
+.nav-drop-menu:hover>.dropdown-menu {
+    opacity:1;
+    display:block;
+    height:inherit;
+    visibility:visible;
+    top:50px !important;
+}
+.dropdown-menu{
+    min-width: 25rem;
+    padding: 0px;
+}
+.itemShop{
+    padding: 5px;
+    margin: 0px;
+    border:5px;
+    border-color: black;
+   
+}
+
+
+ul{
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    
+    
+}
+li{
+    list-style: none;
+    padding-left: 0px;
+    
+    
+    
+}
+li{
+    margin-bottom: 2px;
+}
+.card-body{
+    margin: 10px;
+    padding: 5px;
+}
+label,.btnEliminar{
+    margin: 0px;
+    border: 0px;
+    align-items: center;
+    vertical-align: middle;
+    padding-top: .8rem;
+    padding-right: 1rem;
+}
+#btnBorrarExample{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.imgCartShop{
+    border-radius: 5px;
+}
+#btnBorrarExample{
+    color: red;
+}
+#btnBorrarExample:hover{
+    color: brown;
+}
+
